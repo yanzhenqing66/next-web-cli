@@ -7,10 +7,10 @@ module.exports = {
   extends: [
     'next/core-web-vitals',
     'prettier',
-    'prettier/@typescript-eslint',
-    'plugin:prettier/recommended'
+    // 'prettier/@typescript-eslint',
+    'plugin:prettier/recommended',
   ],
   rules: {
-    'prettier/prettier': 'error'
-  }
+    'prettier/prettier': 'error',
+  },
 }
