@@ -4,6 +4,7 @@ const path = require('path')
 
 const nextConfig = {
   reactStrictMode: true,
+  distDir: 'dist',
   /**
    * buildId - 字符串类型，构建的唯一标示
    * dev - Boolean型，判断你是否在开发环境下
